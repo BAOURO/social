@@ -17,9 +17,9 @@
 					<!--img src="#" class="responsive-img circle"-->
 				</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">ACCUEIL</a></li>
-                    <li><a href="#">MESSAGES</a></li>
-                    <li><a href="#">NOTIFICATIONS</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">FRIENDS</a></li>
+                    <li><a href="#">NOTIFICATION</a></li>
                     <li><a href="#">PROFIL</a></li>
                     <li><a href="#">DECONNEXION</a></li>
                 </ul>
@@ -27,8 +27,8 @@
                 <ul id="nav-mobile" class="side-nav">
 					<!--li href="index.php"><img src="#" class="responsive-img circle center"></li-->
 					<li class="divider"></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-home left"></i>ACCUEIL</a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-maps-local-hospital left"></i>MESSAGES</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-home left"></i>HOME</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-maps-local-hospital left"></i>FRIENDS</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-people left"></i>NOTIFICATION</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>PROFIL</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>DECONNEXION</a></li>
