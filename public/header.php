@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Social</title>
-
-  <!-- CSS  -->
-  <link href="../assets/libs/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../assets/libs/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="description" content="Social Works">
+    <title>Social</title>
+    <link href="../assets/libs/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
     <div class="navbar-fixed">
@@ -27,9 +29,9 @@
                 <ul id="nav-mobile" class="side-nav">
 					<!--li href="index.php"><img src="#" class="responsive-img circle center"></li-->
 					<li class="divider"></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-home left"></i>HOME</a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-maps-local-hospital left"></i>FRIENDS</a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-people left"></i>NOTIFICATION</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action- left"></i>HOME</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-people left"></i>FRIENDS</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-public left"></i>NOTIFICATION</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>PROFIL</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>DECONNEXION</a></li>
                 </ul>

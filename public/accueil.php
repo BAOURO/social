@@ -9,26 +9,20 @@ require_once "header.php";
 ?>
 
 <div class="row">
-    <div class="col s12 m12 l12">
+    <div class="col m12 s12 l8 center">
         <div class="container">
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="../image/avatar.jpeg">
-                            <span class="card-title">Card Title</span>
-                        </div>
-                        <div class="card-content">
-                            <p>I am a very simple card. I am good at containing small bits of information.
-                                I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                            <a href='#'>This is a link</a>
-                        </div>
+            <form method="post" action="accueil.php" enctype="multipart/form-data">
+                <img class="responsive-img circle" src="../image/avatar.jpeg" style="top: 40px; width: 75px; height: 75px; position: relative">
+                <div class="row">
+                    <div class="input-field col s12 m12 l7 right">
+                        <i class="mdi-editor-mode-edit prefix"></i>
+                        <textarea id="statut" class="materialize-textarea" name="statut" placeholder="Statut"></textarea>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Publier
+                            <i class="mdi-action-search right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
+            </form>
     </div>
 </div>

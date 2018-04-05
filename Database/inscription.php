@@ -25,7 +25,7 @@ if(isset($_POST['btn-sign'])){
         echo "Les mots de passe doivent etre identiques ";
         require "inscription.php";
     }else{
-        $pdo = new PDO('mysql:host=localhost;dbname=social','root','');
+        $pdo = connexion();
         $password =md5($pass);
 
         try{
@@ -49,10 +49,10 @@ if(isset($_POST['btn-sign'])){
                 $ok = $req_log->execute();
 
                 if($ok){
-                    require "../index.php";
+                    header("Location:../index.php");
                 }else{
 
-                    require "inscription.php";
+                    require_once "inscription.php";
                 }
             }else{
                 require "inscription.php";
