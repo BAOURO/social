@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html">
@@ -7,11 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Social">
-    <title>Social</title>
-
-    <!-- CSS  -->
-    <link href="assets/libs/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="assets/libs/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Social</title>
 
 </head>
 <body>
@@ -37,10 +35,10 @@
                             </button>
                         </div>
                         <div class="mdi-action-help col l12 m12 s12 center" id="lab-log">
-                            <a href="#"><i class="mdi-action-help left">Forgot password ?</i></a>
+                            <a href="#">Forgot password ?</a>
                         </div>
                         <div class="mdi-action-account-circle col l12 m12 s12 center" id="lab-log">
-                            <a href="public/inscription.php"><i class="mdi-action-info">Sign up</i></a>
+                            <a href="public/inscription.php">Sign up</a>
                         </div>
                     </form>
                 </div>
