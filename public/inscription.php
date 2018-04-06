@@ -17,15 +17,15 @@
     <title>Social</title>
 
     <!-- CSS  -->
-    <link href="../assets/libs/materialize/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../assets/libs/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="../assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
     <div class="row">
         <header>
             <nav>
                 <div class="navbar-fixed">
-                    <div class="card light-blue white-text">
+                    <div class="card light-blue lighten-1 white-text">
                         <p class="center-align" style="font-family: cursive; font-size: 45px;">Creation de compte</p>
                     </div>
                 </div>
@@ -33,23 +33,24 @@
         </header>
         <div class="col l12 m12 s12 ">
             <div class="container">
-                <div class="row z-depth-1 light-blue-text"  style="margin-top: 40px;">
+                <div class="row z-depth-1 light-blue-text" id="form-inscrip">
                     <form method="post" action="../Database/inscription.php">
-                        <div class="col l12 m12 s12">
-                            <p class="card-header light-blue-text center-align" style="font-size: 25px ;text-align: center; color: #f57f17">S'inscrire</p>
-                        </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-action-account-circle prefix"></i>
                             <input type="text" name="nom" id="nom">
                             <label for="nom">Nom</label>
                         </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-action-account-circle prefix"></i>
                             <input type="text" name="prenom" id="prenom">
                             <label for="prenom">Prenom</label>
                         </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-action-today prefix"></i>
                             <input type="date" name="date" id="date" placeholder="Date de naissance">
                         </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-maps-place prefix"></i>
                             <input type="text" name="lieu" id="lieu">
                             <label for="lieu">Lieu de naissance</label>
                         </div>
@@ -61,27 +62,31 @@
                             <label for="Feminin">Feminin</label>
                         </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-action-markunread-mailbox prefix"></i>
                             <input type="email" name="mail" id="mail">
                             <label for="mail">Email</label>
                         </div>
                         <div class="input-field col l6 m12 s12">
+                            <i class="mdi-action-account-circle prefix"></i>
                             <input type="text" name="login" id="login">
                             <label for="login">Login</label>
                         </div>
                         <div class="input-field col l6 m12 s12">
+                             <i class="mdi-action-lock prefix"></i>
                             <input type="password" name="pass" id="pass">
                             <label for="pass">Password</label>
                         </div>
                         <div class="input-field col l12 m12 s12">
+                             <i class="mdi-action-lock prefix"></i>
                             <input type="password" name="cpass" id="cpass">
                             <label for="cpass">Confirm Password</label>
                         </div>
-                        <div class="input-field col l12 m12 s12 center" style="display: block;">
-                            <button style="width: 150px;" class="btn-large light-blue lighten-1"  name="btn-cancel" type="reset" id="btn-cancel">
-                                <i class="mdi-content-send right"></i>Cancel
-                            </button>
-                            <button style="width: 150px;" class="btn-large light-blue lighten-1"  name="btn-sign" type="submit" id="btn-sign">
+                        <div class="input-field col l12 m12 s12 center">
+                            <button class="btn light-blue lighten-1"  name="btn-sign" type="submit" id="btn-sign">
                                 <i class="mdi-content-send right"></i>Save
+                            </button>
+                            <button class="btn light-blue lighten-1"  name="btn-cancel" type="reset" id="btn-cancel">
+                                <i class="mdi-navigation-cancel right"></i>Cancel
                             </button>
                         </div>
                     </form>
@@ -90,6 +95,7 @@
         </div>
     </div>
 
+    <?php require_once "footer.php"?>
 
     <!-- Scripts-->
     <script src="../assets/libs/materialize/js/jquery.js"></script>

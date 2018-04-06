@@ -19,21 +19,21 @@
 					<!--img src="#" class="responsive-img circle"-->
 				</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">FRIENDS</a></li>
-                    <li><a href="#">NOTIFICATION</a></li>
-                    <li><a href="#">PROFIL</a></li>
-                    <li><a href="#">DECONNEXION</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-action-home left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-social-people left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-social-public left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-av-web left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-action-settings-power left"></i></a></li>
                 </ul>
 				
                 <ul id="nav-mobile" class="side-nav">
 					<!--li href="index.php"><img src="#" class="responsive-img circle center"></li-->
 					<li class="divider"></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action- left"></i>HOME</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-home left"></i>HOME</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-people left"></i>FRIENDS</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-public left"></i>NOTIFICATION</a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>PROFIL</a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-work left"></i>DECONNEXION</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-av-web left"></i>PROFIL</a></li>
+                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-settings-power left"></i>DECONNEXION</a></li>
                 </ul>
                 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
