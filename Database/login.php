@@ -19,13 +19,18 @@
             $req->bindValue(":login", $login, PDO::PARAM_STR);
             $req->bindValue(":password", $password, PDO::PARAM_STR);
             $con = $req->execute();
-            if($con){
+            $res = $req->fetchObject();
+            if($res->login == $login && $res->password ==$password){
 
-                echo "Connexion success";
+                session_start();
+                $_SESSION['id_comptes'] = $res->id_comptes;
+                $_SESSION['id_users'] = $res->id_users;
                 header("Location:../public/accueil.php");
             }else{
-                echo "Connexion echoue";
-                header("Location:../index.php");
+
+                echo "<script type='text/javascript'>
+                        alert('Nom ou Mot de Passe incorrect! veuillez resaisir les informations!');window.location.replace('../index.php');
+                      </script>";
             }
 
         }
