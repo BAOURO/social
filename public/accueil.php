@@ -38,7 +38,7 @@
                     <img class="responsive-img circle left" src="../image/avatar.jpeg" id="img-avatar">
                     <div class="input-field col s12 m12 l7 center" id="align-statut">
                         <textarea id="statut" class="materialize-textarea" name="statut" placeholder="Statut"></textarea><br>
-                        <button class="btn waves-light waves-effect light-blue lighten-1" type="submit" name="publier">Publier
+                        <button class="btn waves-light waves-effect light-blue lighten-1 left" type="submit" name="publier">Publier
                             <i class="mdi-content-send right"></i>
                         </button>
                     </div>
