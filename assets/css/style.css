@@ -24,3 +24,19 @@
     margin-left: 135px;
     position: static;
 }
+#img-avatar{
+    top: 30px;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    margin-bottom: 20px;
+}
+#statut{
+    font-size: 14px;
+    text-align: center;
+    font-family: Material-Design-Icons;
+}
+#form-inscrip{
+    margin-top: 120px;
+    border-radius: 5px;
+}
