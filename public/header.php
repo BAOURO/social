@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="Content-Type" content="text/html">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,17 +19,17 @@
 					<!--img src="#" class="responsive-img circle"-->
 				</a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-action-home left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="accueil.php"><i class="large mdi-action-home left"></i></a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-social-people left"></i></a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-social-public left"></i></a></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-av-web left"></i></a></li>
+                    <li><a class="waves-effect waves-light-green" href="profil.php"><i class="large mdi-av-web left"></i></a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="large mdi-action-settings-power left"></i></a></li>
                 </ul>
 				
                 <ul id="nav-mobile" class="side-nav">
 					<!--li href="index.php"><img src="#" class="responsive-img circle center"></li-->
 					<li class="divider"></li>
-                    <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-action-home left"></i>HOME</a></li>
+                    <li><a class="waves-effect waves-light-green" href="accueil.php"><i class="mdi-action-home left"></i>HOME</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-people left"></i>FRIENDS</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-social-public left"></i>NOTIFICATION</a></li>
                     <li><a class="waves-effect waves-light-green" href="#"><i class="mdi-av-web left"></i>PROFIL</a></li>

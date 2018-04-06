@@ -24,6 +24,7 @@
 
                 session_start();
                 $_SESSION['id_comptes'] = $res->id_comptes;
+                $_SESSION['login'] = $res->login;
                 $_SESSION['id_users'] = $res->id_users;
                 header("Location:../public/accueil.php");
             }else{
