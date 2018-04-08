@@ -30,6 +30,10 @@
                 <input id="ville" name="ville" type="text" value="" required >
                 <label for="ville">Ville :</label>
             </div>
+            <div class="input-field col l6 m6 s12">
+                <input id="diplome" name="diplome" type="text" value="" required >
+                <label for="diplome">Diplome :</label>
+            </div>
             <div class="input-field col l12 m12 s12" style="text-align: center">
                 <button  class="btn-large" name="enreg" type="submit" value="Enregistrer">Enregistrer</button>
                 <button class="btn-large" name="reset" type="reset" value="Annuler">  Annuler   </button>
