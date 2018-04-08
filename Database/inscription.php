@@ -30,7 +30,7 @@ if(isset($_POST['btn-sign'])){
 
         try{
 
-            $req = $pdo->prepare('INSERT INTO users VALUES (NULL , :nom_users, :prenom_users, :date_users, :lieu_users, :sexe_users, :mail_users)');
+            $req = $pdo->prepare('INSERT INTO users VALUES (NULL , :nom_users, :prenom_users, :date_users, :lieu_users, :sexe_users, :mail_users, NULL, NULL, NULL, NULL, NULL, NULL )');
             $req->bindValue(":nom_users",$nom);
             $req->bindValue(":prenom_users",$prenom);
             $req->bindValue(":date_users",$date);
